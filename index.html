@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>雲端般若堂・地藏聖號播放器</title>
+<style>
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(145deg,#f8f4e9,#eee4ce);
+  color: #59432d;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main {
+  width: 90%;
+  max-width: 520px;
+  padding: 30px 18px;
+  box-sizing: border-box;
+  border: 1px solid #d8bd83;
+  border-radius: 22px;
+  background: rgba(255,255,255,.65);
+  box-shadow: 0 8px 28px #8b765322;
+}
+.lotus { font-size: 54px; color: #b59659; }
+h1 { font-size: 25px; line-height: 1.6; }
+p { color: #826d53; line-height: 1.8; }
+.player {
+  margin-top: 24px;
+  overflow: hidden;
+  border-radius: 14px;
+}
+iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: 0;
+}
+.note { font-size: 13px; margin-top: 18px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="lotus">蓮</div>
+  <h1>客服專區<br>地藏聖號播放器</h1>
+  <p>一心稱念地藏菩薩聖號<br>願諸眾生離苦得樂</p>
+
+  <div class="player">
+    <iframe
+      src="https://www.youtube.com/embed/cl-NBVUSFr4?autoplay=1&controls=1&loop=1&playlist=cl-NBVUSFr4&playsinline=1"
+      title="地藏菩薩聖號"
+      allow="autoplay; encrypted-media; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <p class="note">
+    若未自動播放，請按播放器中央的播放鍵。<br>
+    播放器提供播放、暫停及音量控制。
+  </p>
+</main>
+</body>
+</html>
